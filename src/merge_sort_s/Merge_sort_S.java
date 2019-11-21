@@ -22,16 +22,16 @@ public class Merge_sort_S {
                 randomFill(vetor);
             
 		long startTime = System.currentTimeMillis();
-		System.out.println("=================ANTES==================");
+		System.out.println("=================ANTES=====================");
 		printVetor(vetor,0,vetor.length-1);
-		System.out.println("========================================");
+		System.out.println("===========================================");
                 mergeSort(0,vetor.length-1, vetor);
-		System.out.println("=================DEPOIS=================");
+		System.out.println("=================DEPOIS====================");
  
 		
 		
 		printVetor(vetor,0,vetor.length-1);
-                System.out.println("========================================");
+                System.out.println("===========================================");
                 long stopTime = System.currentTimeMillis();
                 long elapsedTime = stopTime - startTime;
                 System.out.println("tempo de execução: " + (float)elapsedTime/1000 + " secondos");
