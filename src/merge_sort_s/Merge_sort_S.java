@@ -18,7 +18,7 @@ public class Merge_sort_S {
 	public static void main(String args[])
 	{
             
-                int[] vetor = new int[5000];
+                int[] vetor = new int[10000];
                 randomFill(vetor);
             
 		long startTime = System.currentTimeMillis();
